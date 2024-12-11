@@ -24,7 +24,6 @@ class ThreadedCamera(object):
         self.frame_number=self.total_frames
         self.thread.daemon = True
         self.thread.start()
-
     def update(self):
         while True:
             if self.total_frames>=0:

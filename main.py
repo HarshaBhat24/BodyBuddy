@@ -22,11 +22,11 @@ class main:
     def rep(self, type, source):
         
         try:
+            print('Try on')
             if type.lower() == str("pushup"):
                 self.pushup.exercise(source)
             elif type.lower() == str("squat"):
                 self.squat.exercise(source)
-                print("Squat - finished")
             elif type.lower() == str("plank"):
                 self.plank.exercise(source)
             elif type.lower() == str("shouldertap"):
@@ -43,8 +43,6 @@ class main:
         except Exception as e:
             print(f"An error in main -try1{e}")
             return
-        finally:
-            print("Execution completed")
 
 
 
