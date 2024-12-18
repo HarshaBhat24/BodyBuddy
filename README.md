@@ -14,7 +14,6 @@ Pose detection is a crucial aspect of computer vision that involves identifying 
 
 ## Features
 
-- Real-time pose detection
 - Support for multiple poses
 - High accuracy and performance
 - Easy integration with other applications
